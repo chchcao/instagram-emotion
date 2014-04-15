@@ -1,0 +1,10 @@
+{
+  "name": "Instagram Emotions",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "~3.1",
+    "jquery": "~2.1",
+    "underscore": "~1.6",
+    "async": "~0.7.0"
+  }
+}
