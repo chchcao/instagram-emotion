@@ -1,9 +1,89 @@
+body{
+  background-image: url("http://images2.layoutsparks.com/1/202969/everytime-polka-dots-pink.jpg");
+}
+h1{
+  background-color: white;
+  height: 10%;
+  width: 100%;
+  margin-top: -6px;
+  margin-left: -7px;
+}
 .background{
   width:15%;
   height: 5%;
   border-radius: 20%;
   text-align: center;
+  color:white;
+  margin-left: 160px;
 }
+
+.dot{
+ background-color:orange;
+}
+.dot:hover{
+opacity:.4;
+}
+#dot_1{
+  height: 46%;
+  width: 23%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 180px;
+  margin-top: -20px;
+}
+#dot_2{
+  height: 30%;
+  width: 15%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 200px;
+}
+
+#dot_3{
+  height: 24%;
+  width: 12%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 220px;
+  margin-top: -80px;
+}
+
+#dot_4{
+  height: 40%;
+  width: 20%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 250px;
+  margin-top: -100px;
+}
+
+#dot_5{
+  height: 20%;
+  width: 10%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 300px;
+  margin-top: -40px;
+}
+
+#dot_6{
+  height: 30%;
+  width: 15%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 270px;
+  margin-top: 80px;
+  margin-top: -5px;
+}
+
+#dot_7{
+  height: 20%;
+  width: 10%;
+  border-radius: 100%;
+  float:right;
+  margin-right: 270px;
+}
+
 #wonderful{
   background-color: #FC0082;
 }
@@ -25,7 +105,7 @@
 #peaceful{
   background-color: #FC9DCE;
 }
-#dountful{
+#doutful{
   background-color: #E09DC0;
 }
 #worried{
@@ -40,3 +120,4 @@
 #miserable{
   background-color: #36282F;
 }
+
