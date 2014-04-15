@@ -4,6 +4,7 @@
   "dependencies": {
     "bootstrap": "~3.1",
     "jquery": "~2.1",
-    "underscore": "~1.6"
+    "underscore": "~1.6",
+    "async": "~0.7.0"
   }
 }
