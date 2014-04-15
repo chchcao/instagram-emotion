@@ -20,6 +20,21 @@ $(function(){
   });
 
   async.parallel(tagFetchTasks, function(err, results){
-    console.log(JSON.stringify(results, null, 3));
+    var maxEmotion;
+    var maxCount;
+    _.each(results, function(count, emotion){
+      if(maxEmotion == null){
+        maxEmotion = emotion;
+        maxCount = count;
+      }else{
+        if(count > maxCount){
+          maxEmotion = emotion;
+          maxCount = count;
+        }
+      }
+    });
+
+    // change the color
+    $('body').css('background-color', colorEmotions[maxEmotion]);
   });
 });
